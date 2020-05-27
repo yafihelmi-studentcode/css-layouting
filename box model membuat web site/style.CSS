@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Style */
+
+body {
+	font: 16px arial;
+	background-color: blanchedalmond;
+	background-image: url(2.png);
+	color: chocolate;
+}
+
+.container {
+	width: 400px;
+	margin: auto;
+	background-color: cornsilk;
+	border: 1px rgb(214, 214, 214) solid;
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 5px;
+}
+
+.header .judul {
+	font-size: 38px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.header a {
+	text-decoration: none;
+	color: crimson;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: cyan;
+	color: darkgrey;
+}
+
+.hero {
+	height: 150px;
+	background-image: url(1.jpg);
+	background-size: cover;
+	background-position: 0 -90px;
+	border-top: 5px solid plum;
+	border-bottom: 2.5px solid gray;
+}
+
+.content {
+	padding: 20px;
+}
+.content h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.content .penulis {
+	font-size: 12px;
+}
+
+.content .penulis a {
+	color: #ff6b6b;
+	text-decoration: none;
+}
+
+.content p {
+	margin: 15px;
+	font-size: 14px;
+}
+
+.footer {
+	background-color: rgb(66, 66, 66);
+	padding: 10px;
+}
+
+.footer .copy {
+	color: rgb(226, 226, 226);
+	text-align: center;
+	font-size: 12px;
+	font-weight: lighter;
+	font-family: 'Courier New', Courier, monospace;
+}
