@@ -16,3 +16,10 @@
     margin: 2px;
     float: left;
 }
+p {
+    margin: 5px;
+}
+
+.clear {
+    clear: left;
+}

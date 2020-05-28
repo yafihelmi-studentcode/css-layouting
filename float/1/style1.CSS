@@ -3,6 +3,7 @@
     border: 1px solid black;
     margin: auto;
     padding: 3px;
+    overflow: auto;
 }
 
 .satu, .dua, .tiga {
@@ -33,5 +34,8 @@
 img {
     float: left;
     margin-right: 5px;
-    margin-bottom: -25px;
+}
+
+.clear {
+    clear: left;
 }
