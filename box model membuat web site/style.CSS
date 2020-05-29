@@ -57,7 +57,7 @@ body {
 }
 
 .container {
-	width: 400px;
+	width: 600px;
 	margin: auto;
 	background-color: cornsilk;
 	border: 1px rgb(214, 214, 214) solid;
@@ -91,34 +91,60 @@ body {
 }
 
 .hero {
-	height: 150px;
+	height: 300px;
 	background-image: url(1.jpg);
 	background-size: cover;
-	background-position: 0 -90px;
+	background-position: 0px;
 	border-top: 5px solid plum;
 	border-bottom: 2.5px solid gray;
 }
 
-.content {
+.main {
+	width: 350px;
 	padding: 20px;
+	box-sizing: border-box;
+	float: left;
 }
-.content h2 {
+.main h2 {
 	font-size: 20px;
 	font-weight: bold;
 }
 
-.content .penulis {
+.main .penulis {
 	font-size: 12px;
 }
 
-.content .penulis a {
+.main .penulis a {
 	color: #ff6b6b;
 	text-decoration: none;
 }
 
-.content p {
+.main p {
 	margin: 15px;
 	font-size: 14px;
+}
+
+/* sidebar */
+.sidebar {
+	width: 250px;
+	float: right;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.sidebar h3 {
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(255, 104, 104);
+}
+.sidebar img {
+	height: 70px;
+	float: left;
+	padding: 10px;
+}
+
+.sidebar p {
+	font: 14px arial;
 }
 
 .footer {
@@ -132,4 +158,19 @@ body {
 	font-size: 12px;
 	font-weight: lighter;
 	font-family: 'Courier New', Courier, monospace;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
 }
