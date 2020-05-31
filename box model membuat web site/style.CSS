@@ -56,11 +56,35 @@ body {
 	color: chocolate;
 }
 
+.tob-bar{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	height: 20px;
+	background-color: gray;
+	border-bottom: 3px solid rgb(194, 194, 194);
+	z-index: 999;
+}
+
 .container {
 	width: 600px;
-	margin: auto;
+	margin: 50px auto;
 	background-color: cornsilk;
 	border: 1px rgb(214, 214, 214) solid;
+	position: relative;
+}
+
+.web {
+	background-image: url(banner.png);
+	height: 150px;
+	width: 150px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -999px;
+	position: absolute;
+	top: 0px;
+	right: -35px;
 }
 
 .header {
